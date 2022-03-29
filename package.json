@@ -1,0 +1,19 @@
+{
+  "name": "ticketco",
+  "version": "0.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "github:expressjs/express",
+    "fetch": "^1.1.0",
+    "node-fetch": "^3.1.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "twig": "^1.15.4"
+  }
+}
